@@ -17,37 +17,37 @@
 
 PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/bin/adjust_serialno:system/bin/adjust_serialno \
-    vendor/bq/gohan/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/bq/gohan/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/bq/gohan/proprietary/bin/cnd:system/bin/cnd \
+    vendor/bq/gohan/proprietary/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/bq/gohan/proprietary/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/bq/gohan/proprietary/bin/cnd:system/vendor/bin/cnd \
     vendor/bq/gohan/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/bq/gohan/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/bq/gohan/proprietary/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/bq/gohan/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/bq/gohan/proprietary/bin/gx_fpd:system/bin/gx_fpd \
-    vendor/bq/gohan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/bq/gohan/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/bq/gohan/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/bq/gohan/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/bq/gohan/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/bq/gohan/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/bq/gohan/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/bq/gohan/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/bq/gohan/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/bq/gohan/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/bq/gohan/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/bq/gohan/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/bq/gohan/proprietary/bin/radish:system/bin/radish \
-    vendor/bq/gohan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/bq/gohan/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/bq/gohan/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/bq/gohan/proprietary/bin/wcnss_service:system/bin/wcnss_service \
-    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/bq/gohan/proprietary/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
+    vendor/bq/gohan/proprietary/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
+    vendor/bq/gohan/proprietary/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
+    vendor/bq/gohan/proprietary/bin/irsc_util:system/vendor/bin/irsc_util \
+    vendor/bq/gohan/proprietary/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/bq/gohan/proprietary/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/bq/gohan/proprietary/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/bq/gohan/proprietary/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/bq/gohan/proprietary/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/bq/gohan/proprietary/bin/pm-service:system/vendor/bin/pm-service \
+    vendor/bq/gohan/proprietary/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/bq/gohan/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/bq/gohan/proprietary/bin/radish:system/vendor/bin/radish \
+    vendor/bq/gohan/proprietary/bin/rmt_storage:system/vendor/bin/rmt_storage \
+    vendor/bq/gohan/proprietary/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/bq/gohan/proprietary/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/bq/gohan/proprietary/bin/wcnss_service:system/vendor/bin/wcnss_service \
+    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/bq/gohan/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/bq/gohan/proprietary/etc/camera/imx219_d8n03d_chromatix.xml:system/etc/camera/imx219_d8n03d_chromatix.xml \
     vendor/bq/gohan/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
@@ -59,38 +59,38 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/bq/gohan/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/bq/gohan/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/bq/gohan/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
-    vendor/bq/gohan/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
-    vendor/bq/gohan/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
-    vendor/bq/gohan/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
-    vendor/bq/gohan/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/bq/gohan/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_5_1.fw:system/etc/firmware/cpp_firmware_v1_5_1.fw \
-    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/bq/gohan/proprietary/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
+    vendor/bq/gohan/proprietary/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
+    vendor/bq/gohan/proprietary/etc/firmware/DE.o.msm8952:system/vendor/etc/firmware/DE.o.msm8952 \
+    vendor/bq/gohan/proprietary/etc/firmware/DE.o.msm8976:system/vendor/etc/firmware/DE.o.msm8976 \
+    vendor/bq/gohan/proprietary/etc/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
+    vendor/bq/gohan/proprietary/etc/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
+    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_5_1.fw:system/vendor/firmware/cpp_firmware_v1_5_1.fw \
+    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/bq/gohan/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
     vendor/bq/gohan/proprietary/etc/firmware/synaptics_firmware_truly_auo.img:system/etc/firmware/synaptics_firmware_truly_auo.img \
     vendor/bq/gohan/proprietary/etc/firmware/synaptics_firmware_truly_lg.img:system/etc/firmware/synaptics_firmware_truly_lg.img \
     vendor/bq/gohan/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b03:system/etc/firmware/venus-v1.b03 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b00:system/vendor/firmware/venus-v1.b00 \
+    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b01:system/vendor/firmware/venus-v1.b01 \
+    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b02:system/vendor/firmware/venus-v1.b02 \
+    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b03:system/vendor/firmware/venus-v1.b03 \
+    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b04:system/vendor/firmware/venus-v1.b04 \
+    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.mbn:system/vendor/firmware/venus-v1.mbn \
+    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.mdt:system/vendor/firmware/venus-v1.mdt \
+    vendor/bq/gohan/proprietary/etc/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/bq/gohan/proprietary/etc/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/bq/gohan/proprietary/etc/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/bq/gohan/proprietary/etc/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/bq/gohan/proprietary/etc/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/bq/gohan/proprietary/etc/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/bq/gohan/proprietary/etc/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/bq/gohan/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/bq/gohan/proprietary/etc/permissions/bq.software.bqservices.system.xml:system/etc/permissions/bq.software.bqservices.system.xml \
     vendor/bq/gohan/proprietary/etc/permissions/bq.software.qcom.camera.full_support.xml:system/etc/permissions/bq.software.qcom.camera.full_support.xml \
@@ -116,7 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/bq/gohan/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/bq/gohan/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/bq/gohan/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
+    vendor/bq/gohan/proprietary/lib/hw/camera.msm8952.so:system/vendor/lib/hw/camera.msm8952.so \
     vendor/bq/gohan/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/bq/gohan/proprietary/lib/hw/gxfingerprint.default.so:system/lib/hw/gxfingerprint.default.so \
     vendor/bq/gohan/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \

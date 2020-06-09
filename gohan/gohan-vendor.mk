@@ -134,6 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/bq/gohan/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/bq/gohan/proprietary/lib/libvidhance.so:system/lib/libvidhance.so \
+    vendor/bq/gohan/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
     vendor/bq/gohan/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/bq/gohan/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/bq/gohan/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \

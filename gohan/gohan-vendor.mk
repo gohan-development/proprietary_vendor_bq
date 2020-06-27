@@ -479,7 +479,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     shutdownlistener \
     CNEService \
-    QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     qcnvitems \

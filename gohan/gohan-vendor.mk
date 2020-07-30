@@ -480,7 +480,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     shutdownlistener \
-    CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     qcnvitems \

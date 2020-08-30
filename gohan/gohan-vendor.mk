@@ -484,3 +484,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
+
+PRODUCT_PACKAGES += \
+    nfc_nci.msm8952

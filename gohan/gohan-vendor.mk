@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/bq/gohan/proprietary/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/bq/gohan/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/bq/gohan/proprietary/bin/gx_fpd:system/bin/gx_fpd \
+    vendor/bq/gohan/proprietary/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/bq/gohan/proprietary/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/bq/gohan/proprietary/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/bq/gohan/proprietary/bin/ipacm-diag:system/vendor/bin/ipacm-diag \

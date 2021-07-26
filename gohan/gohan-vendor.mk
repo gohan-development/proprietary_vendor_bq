@@ -156,6 +156,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/bq/gohan/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/bq/gohan/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
     vendor/bq/gohan/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/bq/gohan/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/bq/gohan/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
@@ -419,6 +421,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/bq/gohan/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/bq/gohan/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/bq/gohan/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/bq/gohan/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/bq/gohan/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \

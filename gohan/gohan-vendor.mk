@@ -77,20 +77,20 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/etc/firmware/synaptics_firmware_truly_auo.img:system/etc/firmware/synaptics_firmware_truly_auo.img \
     vendor/bq/gohan/proprietary/etc/firmware/synaptics_firmware_truly_lg.img:system/etc/firmware/synaptics_firmware_truly_lg.img \
     vendor/bq/gohan/proprietary/etc/firmware/tfa98xx.cnt:system/etc/firmware/tfa98xx.cnt \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b00:system/etc/firmware/venus-v1.b00 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b01:system/etc/firmware/venus-v1.b01 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b02:system/etc/firmware/venus-v1.b02 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b03:system/etc/firmware/venus-v1.b03 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.b04:system/etc/firmware/venus-v1.b04 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.mbn:system/etc/firmware/venus-v1.mbn \
-    vendor/bq/gohan/proprietary/etc/firmware/venus-v1.mdt:system/etc/firmware/venus-v1.mdt \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/bq/gohan/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus-v1.b00:system/vendor/firmware/venus-v1.b00 \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus-v1.b01:system/vendor/firmware/venus-v1.b01 \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus-v1.b02:system/vendor/firmware/venus-v1.b02 \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus-v1.b03:system/vendor/firmware/venus-v1.b03 \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus-v1.b04:system/vendor/firmware/venus-v1.b04 \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus-v1.mbn:system/vendor/firmware/venus-v1.mbn \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus-v1.mdt:system/vendor/firmware/venus-v1.mdt \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/bq/gohan/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/bq/gohan/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/bq/gohan/proprietary/etc/permissions/bq.software.bqservices.system.xml:system/etc/permissions/bq.software.bqservices.system.xml \
     vendor/bq/gohan/proprietary/etc/permissions/bq.software.qcom.camera.full_support.xml:system/etc/permissions/bq.software.qcom.camera.full_support.xml \

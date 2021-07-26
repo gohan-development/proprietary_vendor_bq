@@ -107,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/bq/gohan/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/bq/gohan/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/bq/gohan/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/bq/gohan/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/bq/gohan/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/bq/gohan/proprietary/framework/com.android.location.provider.jar:system/framework/com.android.location.provider.jar \

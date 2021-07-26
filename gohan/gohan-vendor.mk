@@ -135,6 +135,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/bq/gohan/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/bq/gohan/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/bq/gohan/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
+    vendor/bq/gohan/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/bq/gohan/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/bq/gohan/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/bq/gohan/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \

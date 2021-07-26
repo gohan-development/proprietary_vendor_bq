@@ -61,8 +61,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/bq/gohan/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
     vendor/bq/gohan/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
-    vendor/bq/gohan/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
-    vendor/bq/gohan/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
+    vendor/bq/gohan/proprietary/vendor/etc/firmware/DE.o.msm8952:system/vendor/etc/firmware/DE.o.msm8952 \
+    vendor/bq/gohan/proprietary/vendor/etc/firmware/DE.o.msm8976:system/vendor/etc/firmware/DE.o.msm8976 \
     vendor/bq/gohan/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/bq/gohan/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/bq/gohan/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \

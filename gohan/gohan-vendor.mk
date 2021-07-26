@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/bq/gohan/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
+    vendor/bq/gohan/proprietary/etc/camera/imx219_cmb104_chromatix.xml:system/etc/camera/imx219_cmb104_chromatix.xml \
     vendor/bq/gohan/proprietary/etc/camera/imx219_d8n03d_chromatix.xml:system/etc/camera/imx219_d8n03d_chromatix.xml \
     vendor/bq/gohan/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
     vendor/bq/gohan/proprietary/etc/camera/imx298_cmb087qr_chromatix.xml:system/etc/camera/imx298_cmb087qr_chromatix.xml \
@@ -193,6 +194,32 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/bq/gohan/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/bq/gohan/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_a3_default_preview.so:system/vendor/lib/libchromatix_imx219_cmb104_a3_default_preview.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_a3_default_video.so:system/vendor/lib/libchromatix_imx219_cmb104_a3_default_video.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_a3_hfr_120.so:system/vendor/lib/libchromatix_imx219_cmb104_a3_hfr_120.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_a3_hfr_60.so:system/vendor/lib/libchromatix_imx219_cmb104_a3_hfr_60.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_a3_hfr_90.so:system/vendor/lib/libchromatix_imx219_cmb104_a3_hfr_90.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_common.so:system/vendor/lib/libchromatix_imx219_cmb104_common.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_imx219_cmb104_cpp_ds_chromatix.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx219_cmb104_cpp_hfr_120.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx219_cmb104_cpp_hfr_60.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx219_cmb104_cpp_hfr_90.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_cpp_liveshot.so:system/vendor/lib/libchromatix_imx219_cmb104_cpp_liveshot.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_cpp_preview.so:system/vendor/lib/libchromatix_imx219_cmb104_cpp_preview.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_cpp_snapshot.so:system/vendor/lib/libchromatix_imx219_cmb104_cpp_snapshot.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_cpp_us_chromatix.so:system/vendor/lib/libchromatix_imx219_cmb104_cpp_us_chromatix.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_cpp_video.so:system/vendor/lib/libchromatix_imx219_cmb104_cpp_video.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_cpp_video_full.so:system/vendor/lib/libchromatix_imx219_cmb104_cpp_video_full.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_hfr_120.so:system/vendor/lib/libchromatix_imx219_cmb104_hfr_120.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_hfr_60.so:system/vendor/lib/libchromatix_imx219_cmb104_hfr_60.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_hfr_90.so:system/vendor/lib/libchromatix_imx219_cmb104_hfr_90.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_liveshot.so:system/vendor/lib/libchromatix_imx219_cmb104_liveshot.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_postproc.so:system/vendor/lib/libchromatix_imx219_cmb104_postproc.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_preview.so:system/vendor/lib/libchromatix_imx219_cmb104_preview.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_snapshot.so:system/vendor/lib/libchromatix_imx219_cmb104_snapshot.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_video_full.so:system/vendor/lib/libchromatix_imx219_cmb104_video_full.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_zsl_preview.so:system/vendor/lib/libchromatix_imx219_cmb104_zsl_preview.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_cmb104_zsl_video.so:system/vendor/lib/libchromatix_imx219_cmb104_zsl_video.so \
     vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_d8n03d_a3_default_preview.so:system/vendor/lib/libchromatix_imx219_d8n03d_a3_default_preview.so \
     vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_d8n03d_a3_default_video.so:system/vendor/lib/libchromatix_imx219_d8n03d_a3_default_video.so \
     vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx219_d8n03d_a3_hfr_120.so:system/vendor/lib/libchromatix_imx219_d8n03d_a3_hfr_120.so \
@@ -356,6 +383,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_imx219_cmb104.so:system/vendor/lib/libmmcamera_imx219_cmb104.so \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_imx219_d8n03d.so:system/vendor/lib/libmmcamera_imx219_d8n03d.so \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_imx298.so:system/vendor/lib/libmmcamera_imx298.so \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_imx298_cmb087qr.so:system/vendor/lib/libmmcamera_imx298_cmb087qr.so \
@@ -407,6 +435,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_truly_imx219_cmb104_eeprom.so:system/vendor/lib/libmmcamera_truly_imx219_cmb104_eeprom.so \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_truly_imx298_cmb087qr_eeprom.so:system/vendor/lib/libmmcamera_truly_imx298_cmb087qr_eeprom.so \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/bq/gohan/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \

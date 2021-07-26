@@ -17,30 +17,30 @@
 
 PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/bin/adjust_serialno:system/bin/adjust_serialno \
-    vendor/bq/gohan/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/bq/gohan/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/bq/gohan/proprietary/bin/cnd:system/bin/cnd \
-    vendor/bq/gohan/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/bq/gohan/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/bq/gohan/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/bq/gohan/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/bq/gohan/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/bq/gohan/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
+    vendor/bq/gohan/proprietary/vendor/bin/dpmd:system/vendor/bin/dpmd \
+    vendor/bq/gohan/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
+    vendor/bq/gohan/proprietary/vendor/bin/fmconfig:system/vendor/bin/fmconfig \
     vendor/bq/gohan/proprietary/bin/gx_fpd:system/bin/gx_fpd \
-    vendor/bq/gohan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/bq/gohan/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
-    vendor/bq/gohan/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
-    vendor/bq/gohan/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/bq/gohan/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/bq/gohan/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/bq/gohan/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/bq/gohan/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/bq/gohan/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/bq/gohan/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/bq/gohan/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/bq/gohan/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/bq/gohan/proprietary/bin/radish:system/bin/radish \
-    vendor/bq/gohan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/bq/gohan/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/bq/gohan/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/bq/gohan/proprietary/bin/wcnss_service:system/bin/wcnss_service \
+    vendor/bq/gohan/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
+    vendor/bq/gohan/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
+    vendor/bq/gohan/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
+    vendor/bq/gohan/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
+    vendor/bq/gohan/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/bq/gohan/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/bq/gohan/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/bq/gohan/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/bq/gohan/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/bq/gohan/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
+    vendor/bq/gohan/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/bq/gohan/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/bq/gohan/proprietary/vendor/bin/radish:system/vendor/bin/radish \
+    vendor/bq/gohan/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
+    vendor/bq/gohan/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/bq/gohan/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/bq/gohan/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/bq/gohan/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \

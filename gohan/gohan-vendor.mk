@@ -505,9 +505,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    TimeService \
-    shutdownlistener \
     com.qualcomm.location \
     qcrilmsgtunnel \
+    TimeService \
+    shutdownlistener \
     qcnvitems \
     qcrilhook

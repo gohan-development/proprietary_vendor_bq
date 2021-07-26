@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/bin/adjust_serialno:system/bin/adjust_serialno \
     vendor/bq/gohan/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/bq/gohan/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/bq/gohan/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/bq/gohan/proprietary/vendor/bin/dpmd:system/vendor/bin/dpmd \
     vendor/bq/gohan/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \

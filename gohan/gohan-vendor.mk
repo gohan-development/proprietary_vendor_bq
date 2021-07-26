@@ -59,8 +59,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/bq/gohan/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/bq/gohan/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/bq/gohan/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
-    vendor/bq/gohan/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
+    vendor/bq/gohan/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
+    vendor/bq/gohan/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/bq/gohan/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
     vendor/bq/gohan/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
     vendor/bq/gohan/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \

@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/bin/adjust_serialno:system/bin/adjust_serialno \
     vendor/bq/gohan/proprietary/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/bq/gohan/proprietary/bin/cnd:system/vendor/bin/cnd \
     vendor/bq/gohan/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/bq/gohan/proprietary/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/bq/gohan/proprietary/bin/fmconfig:system/bin/fmconfig \
@@ -56,7 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/bq/gohan/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/bq/gohan/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/bq/gohan/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
+    vendor/bq/gohan/proprietary/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
     vendor/bq/gohan/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/bq/gohan/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/bq/gohan/proprietary/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
@@ -329,6 +328,8 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/bq/gohan/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/bq/gohan/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libGPreqcancel_svc.so:system/vendor/lib/libGPreqcancel_svc.so \
     vendor/bq/gohan/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/bq/gohan/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/bq/gohan/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
@@ -449,6 +450,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/bq/gohan/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/bq/gohan/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/bq/gohan/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
     vendor/bq/gohan/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/bq/gohan/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/bq/gohan/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \

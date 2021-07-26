@@ -507,7 +507,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     shutdownlistener \
-    CNEService \
     QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \

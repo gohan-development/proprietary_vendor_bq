@@ -18,8 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/bin/adjust_serialno:system/bin/adjust_serialno \
     vendor/bq/gohan/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/bq/gohan/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
-    vendor/bq/gohan/proprietary/vendor/bin/dpmd:system/vendor/bin/dpmd \
     vendor/bq/gohan/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/bq/gohan/proprietary/vendor/bin/fmconfig:system/vendor/bin/fmconfig \
     vendor/bq/gohan/proprietary/bin/gx_fpd:system/bin/gx_fpd \
@@ -52,13 +50,9 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/etc/camera/imx219_d8n03d_chromatix.xml:system/etc/camera/imx219_d8n03d_chromatix.xml \
     vendor/bq/gohan/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
     vendor/bq/gohan/proprietary/etc/camera/imx298_cmb087qr_chromatix.xml:system/etc/camera/imx298_cmb087qr_chromatix.xml \
-    vendor/bq/gohan/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/bq/gohan/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/bq/gohan/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/bq/gohan/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/bq/gohan/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
-    vendor/bq/gohan/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/bq/gohan/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/bq/gohan/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
     vendor/bq/gohan/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/bq/gohan/proprietary/vendor/etc/firmware/DE.o.msm8952:system/vendor/etc/firmware/DE.o.msm8952 \
@@ -91,26 +85,15 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/bq/gohan/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
     vendor/bq/gohan/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
-    vendor/bq/gohan/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/bq/gohan/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/bq/gohan/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/bq/gohan/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/bq/gohan/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/bq/gohan/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/bq/gohan/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/bq/gohan/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/bq/gohan/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/bq/gohan/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/bq/gohan/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
-    vendor/bq/gohan/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/bq/gohan/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/bq/gohan/proprietary/framework/com.android.location.provider.jar:system/framework/com.android.location.provider.jar \
-    vendor/bq/gohan/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/bq/gohan/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/bq/gohan/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/bq/gohan/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/bq/gohan/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/bq/gohan/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/bq/gohan/proprietary/vendor/lib/hw/camera.msm8952.so:system/vendor/lib/hw/camera.msm8952.so \
     vendor/bq/gohan/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
     vendor/bq/gohan/proprietary/lib/hw/gxfingerprint.default.so:system/lib/hw/gxfingerprint.default.so \
@@ -306,19 +289,12 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx298_video_hdr.so:system/vendor/lib/libchromatix_imx298_video_hdr.so \
     vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx298_zsl_preview.so:system/vendor/lib/libchromatix_imx298_zsl_preview.so \
     vendor/bq/gohan/proprietary/vendor/lib/libchromatix_imx298_zsl_video.so:system/vendor/lib/libchromatix_imx298_zsl_video.so \
-    vendor/bq/gohan/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/bq/gohan/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/bq/gohan/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/bq/gohan/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/bq/gohan/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/bq/gohan/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/bq/gohan/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/bq/gohan/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/bq/gohan/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/bq/gohan/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/bq/gohan/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/bq/gohan/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/bq/gohan/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/bq/gohan/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/bq/gohan/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/bq/gohan/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -489,9 +465,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/gohan/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/bq/gohan/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/bq/gohan/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/bq/gohan/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/bq/gohan/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
-    vendor/bq/gohan/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/bq/gohan/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/bq/gohan/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/bq/gohan/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
